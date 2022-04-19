@@ -1,0 +1,65 @@
+[
+    {
+        "img": "./img/projects/bgApp.png",
+        "linkLive": "https://mario994.github.io/Background-Color-Generator/",
+        "linkRepo": "https://github.com/mario994/Background-Color-Generator",
+        "title": "Generador de Color",
+        "description": "Pequeña app creada para generar colores de fondo aleatorios, en formato hexagesimal, incluye función de copiado automatico al hacer click sobre el codigo"
+    },
+    {
+        "img": "http://via.placeholder.com/260x200",
+        "linkLive": "#",
+        "linkRepo": "#",
+        "title": "Lorem ipsu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+    },
+    {
+        "img": "http://via.placeholder.com/260x200",
+        "linkLive": "#",
+        "linkRepo": "#",
+        "title": "Lorem ipsu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+    },
+    {
+        "img": "http://via.placeholder.com/260x200",
+        "linkLive": "#",
+        "linkRepo": "#",
+        "title": "Lorem ipsu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+    },
+    {
+        "img": "http://via.placeholder.com/260x200",
+        "linkLive": "#",
+        "linkRepo": "#",
+        "title": "Lorem ipsu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+    },
+    {
+        "img": "http://via.placeholder.com/260x200",
+        "linkLive": "#",
+        "linkRepo": "#",
+        "title": "Lorem ipsu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+    },
+    {
+        "img": "http://via.placeholder.com/260x200",
+        "linkLive": "#",
+        "linkRepo": "#",
+        "title": "Lorem ipsu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+    },
+    {
+        "img": "http://via.placeholder.com/260x200",
+        "linkLive": "#",
+        "linkRepo": "#",
+        "title": "Lorem ipsu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+    },
+    {
+        "img": "http://via.placeholder.com/260x200",
+        "linkLive": "#",
+        "linkRepo": "#",
+        "title": "Lorem ipsu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+    }
+]

@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bgcolor: #222831;
+    --textColor: #ffffff;
+    --bgTextColor: #383c41;
+    --specialText: #1998ff;
+    --iconBg: #9b9b9b;
+}
+
+/*
+================================
+General Styles
+================================
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bgcolor);
+    font-size: 16px;
+    color: var(--textColor);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/*
+==================================
+Header Styles
+==================================
+*/
+
+.header {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--textColor);
+    grid-column: 1/-1;
+}
+
+.header-text h2 {
+    font-size: 3.8rem;
+}
+
+.header-text p {
+    font-size: 1.4rem;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 12px;
+    background-color: var(--bgTextColor);
+}
+
+/*
+====================================
+About Styles
+====================================
+*/
+
+.about {
+    grid-column: 1/4;
+}
+.about h2 {
+    font-size: 1.8rem;
+    padding: 20px 0px;
+}
+
+.description {
+    padding: 10px 60px 20px 0px;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.special {
+    color: var(--specialText);
+    font-weight: 600;
+}
+
+/*
+==================================
+Contact Styles
+==================================
+*/
+.contact {
+    grid-column: 4/-1;
+    display: flex;
+    align-items: center;
+}
+
+.contact i {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    color: var(--textColor);
+    border-radius: 50%;
+    transition: all 0.4s;
+    padding: 12px;
+    background-color: var(--specialText)
+}
+
+.contact i:hover {
+    transform: scale(1.2);
+}
+
+.contact div {
+    margin: 15px 0;
+}
+
+.social {
+    width: 100%;
+}
+
+.social-info {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 1.2rem;
+}
+
+.nickname {
+    font-weight: 700;
+}
+/*
+=====================================
+Start: Languages & Tecnologies styles
+=====================================
+*/
+
+.tech {
+    grid-column: 1/-1;
+    margin: 40px 0px;
+}
+
+.tech h2 {
+    padding-bottom: 50px;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-img .img{
+    max-width: 80px;
+    margin: 0px 20px;
+    -webkit-user-drag: none;
+}
+
+/*
+===========================
+Portfolio Styles
+===========================
+*/
+
+.portfolio {
+    padding: 30px 0px;
+    grid-column: 1/-1;
+}
+
+.portfolio h2 {
+    font-size: 1.8rem;
+    padding-bottom: 30px;
+}
+
+.portfolio-projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+ 
+.project {
+    max-width: 280px;
+    padding: 15px 0px;
+    border-radius: 6px;
+    background-color: var(--bgTextColor);
+
+}
+
+.img-project {
+    display: flex;
+    justify-content: center;
+}
+
+.info-links {
+    margin: 10px 0px;
+    text-align: center;
+    
+}
+
+.info-links a i{
+    font-size: 1.9rem;
+    color: var(--iconBg);
+    transition: all 0.4s;
+}
+
+.info-links a i:hover {
+    transform: scale(1.2);
+    color: var(--specialText);
+}
+
+.info-project {
+    padding: 0 15px;
+}
+
+.info-project h3 {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-project .copy {
+    text-align: justify;
+}
+
+/*
+==============================
+Footer Styles
+==============================
+*/
+
+.footer {
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 15px 0px;
+}
+
+.line {
+    grid-column: 1/-1;
+    border: 1px solid var(--bgTextColor);
+    margin: 5px 0px 25px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-text {
+        width: 100%;
+        align-items: center;
+    }
+
+    .about {
+        grid-column: 1/-1;
+    }
+
+    .contact {
+        grid-column: 1/-1;
+    }
+
+    .portfolio-projects {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 25px 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-projects {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .description {
+        padding: 10px 20px 10px 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header-text h2{
+        font-size: 2.5rem;
+    }
+
+    .header-text p {
+        font-size: 1.2rem;
+    }
+
+    .container-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        padding: 10px;
+    }
+
+    .container-img .img {
+        margin: 10px;
+    }
+
+    .nickname {
+        font-size: 1rem;
+    }
+
+    .portfolio-projects {
+        grid-template-columns: auto;
+        justify-content: center;
+        
+    }
+}
