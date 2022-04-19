@@ -4,62 +4,34 @@
         "linkLive": "https://mario994.github.io/Background-Color-Generator/",
         "linkRepo": "https://github.com/mario994/Background-Color-Generator",
         "title": "Generador de Color",
-        "description": "Pequeña app creada para generar colores de fondo aleatorios, en formato hexagesimal, incluye función de copiado automatico al hacer click sobre el codigo"
+        "description": "Pequeña app creada para generar colores de fondo aleatorios, en formato hexagesimal, incluye función de copiado automatico al hacer click sobre el codigo."
     },
     {
-        "img": "http://via.placeholder.com/260x200",
-        "linkLive": "#",
-        "linkRepo": "#",
-        "title": "Lorem ipsu",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+        "img": "./img/projects/cardOrder.png",
+        "linkLive": "https://tarjeta-orden-de-pedido.netlify.app/",
+        "linkRepo": "https://github.com/mario994/Tarjeta-orden-de-pedido",
+        "title": "Tarjeta Orden de Pedido",
+        "description": "Maquetación de Tarjeta de orden de pedido, este reto pertenece originalmente a la web FrontEndMentor.io que se llevan a cabo con el fin de mejorar las habilidades en programación."
     },
     {
-        "img": "http://via.placeholder.com/260x200",
-        "linkLive": "#",
-        "linkRepo": "#",
-        "title": "Lorem ipsu",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+        "img": "./img/projects/commentSection.png",
+        "linkLive": "https://comments-section-app.netlify.app/",
+        "linkRepo": "https://github.com/mario994/comments-section",
+        "title": "Sección de Reviews",
+        "description": "Sección de Comentarios que consume los datos a partir de un archivo json por medio de la api fecth de JavaScript."
     },
     {
-        "img": "http://via.placeholder.com/260x200",
-        "linkLive": "#",
-        "linkRepo": "#",
-        "title": "Lorem ipsu",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+        "img": "./img/projects/ratingComponent.png",
+        "linkLive": "https://interactive-rating-component1.netlify.app/",
+        "linkRepo": "https://github.com/mario994/Interactive-Rating-Component-",
+        "title": "Rating Component",
+        "description": "Otro reto de FrontEndMentor.io, esta vez es el layout de un componente que permite al usuario dar una puntualición a la calidad de un servicio."
     },
     {
-        "img": "http://via.placeholder.com/260x200",
-        "linkLive": "#",
-        "linkRepo": "#",
-        "title": "Lorem ipsu",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
-    },
-    {
-        "img": "http://via.placeholder.com/260x200",
-        "linkLive": "#",
-        "linkRepo": "#",
-        "title": "Lorem ipsu",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
-    },
-    {
-        "img": "http://via.placeholder.com/260x200",
-        "linkLive": "#",
-        "linkRepo": "#",
-        "title": "Lorem ipsu",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
-    },
-    {
-        "img": "http://via.placeholder.com/260x200",
-        "linkLive": "#",
-        "linkRepo": "#",
-        "title": "Lorem ipsu",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
-    },
-    {
-        "img": "http://via.placeholder.com/260x200",
-        "linkLive": "#",
-        "linkRepo": "#",
-        "title": "Lorem ipsu",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit ut perferendis."
+        "img": "./img/projects/navBar.png",
+        "linkLive": "https://responsive-navbar01.netlify.app/",
+        "linkRepo": "https://github.com/mario994/Responsive-Navbar",
+        "title": "Barra de Navegación",
+        "description": "Barra de navegación simple con diseño adaptativo para usuarios de telefonos moviles."
     }
 ]
